@@ -1,26 +1,33 @@
 body{
+    margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 body p{
+    text-align: justify;
     font-size: 20px;
+    font-weight: 500;
 }
-.first-section{
+h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.common-section{
     width: 80%;
     margin: 0 auto;
     display: flex;   
 }
-.first-section h1{
+.common-section h1{
     font-size: 45px;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
-    margin-top: 10%;
+    margin-top: 2%;
     margin-left: 10%;
     width: 100%;
-
 }
 .heading{
     border-left: 5px solid;
@@ -39,10 +46,11 @@ body p{
     margin-top: 0;
 }
 .btn-link{
-    padding: 15px 35px;
+    padding: 10px 30px;
     border: none;
+    color: rgb(231, 243, 238);
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 300;
     border-radius: 5px;
     background-image: linear-gradient(to bottom, blue , rgb(223, 62, 201));
     margin-bottom: 5%;
@@ -54,5 +62,93 @@ body p{
 .second-heading{
     margin-top: 10%;
     font-size: 45px;
+    text-align: center;
+}
+.flexible-div{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.missions {
+    padding: 2%;
+    width: 220px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(203, 243, 243);
+}
+.missions img{
+    width: 50%;
+}
+.vission{
+    background-color: rgb(245, 238, 139);
+}
+.goals{
+    background-color: rgb(248, 216, 216);
+}
+.third-section{
+    margin-top: 10%;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+.picture-width{
+    width: 40%;
+}
+.picture-width img{
+    width: 100%;
+}
+.content-width{
+    width: 60%;
+    margin-left: 7%;
+}
+.fourth-section{
+    height: 500px;
+    margin-top: 10%;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 20%;
+}
+.content-width-fourth{
+    width: 60%;
+    margin-right: 7%;
+}
+.addition{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;   
+}
+.addition h1{
+    font-size: 40px;
+}
+.add-app{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row-reverse;
+}
+.pic-app{
+    width: 50%;
+}
+.pic-app img{
+    width: 60%;
+}
+.about-app{
+    width: 50%;
+}
+.about-app p{
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 120px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer p{
     text-align: center;
 }
